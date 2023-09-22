@@ -1,0 +1,110 @@
+.footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.footer-container{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+}
+
+.listem {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listem li {
+    margin-bottom: 20px; 
+}
+
+.listem a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.odemeyontemleri img {
+    margin: 5px;
+    width: 50px;
+    
+}
+
+.trendyol{
+    margin-right: 50px;
+}
+
+.appgalery img{
+    width: 150px !important;
+    margin-bottom: 5px;
+}
+
+.socialmedia{
+    margin-right: 5px;
+    display: flex;
+    width: 40px;
+}
+
+.listem p {
+    border: 1px solid white;
+    border-radius: 7px;
+    display: inline-block; /* Bu, sadece içeriği kadar alan kaplamasını sağlar */
+    padding: 2.5px 5px; /* İçeriğin kenarlıktan uzaklığını ayarlar */
+}
+
+.yardim img{
+    width:90px;
+    justify-content: space-between;
+}
+
+.bottom-footer{
+    background-color: #2D2D2D;
+}
+
+.bottom-footer p{
+    color: #fff;
+    margin: 9px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.listem-bottom li {
+    margin: 9px;
+    justify-content: space-between;
+    display: flex;
+    font-size: 12px;
+}
+
+.listem-bottom li:last-child {
+    margin-right: 0;
+}
+
+.listem-bottom {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.listem-bottom a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-container li:hover,
+.trendyol li:hover,
+.listem li:hover
+{
+    text-decoration: underline; /* Altı çizili yapma */
+    color: white; /* Gri renk */
+}
